@@ -5,7 +5,7 @@ print ("Your Local Time currently is:",Time)
 Hour=int(time.strftime("%H"))
 
 
-if Hour<=6 and Hour<12:
+if Hour>=6 and Hour<12:
   print("Good Morning!!")
 
 elif Hour>=12 and Hour<18:
