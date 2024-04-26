@@ -1,6 +1,6 @@
 import time
 Time=time.strftime("%H:%M:%S" )
-print (Time)
+print ("Your Local Time currently is:",Time)
 
 Hour=int(time.strftime("%H"))
 
